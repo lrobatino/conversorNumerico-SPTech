@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="conversorNumerico.css">
+    <script src="conversorNumerico.js"></script>
+</head>
+<body id="corpo">
+    <div class="div-header">
+        <img id="sptechLogo" src="sptech-logo.png">
+        <h1 class="titulo"> Conversor Numérico</h1>
+    </div>
+    <div class="div-principal">
+        <div id="div-elementos">
+            <h1 class="subtitulo" style="position: relative; bottom: 20px;"> Converter de:</h1>
+            <div class="div-escolha">
+                <div id="div-converter">
+                    <a>
+                        <img id="setaEsquerda" src="seta-esquerda.png" alt="botão esquerdo" onclick="trocarEsquerdaDe()">
+                    </a>
+                    <h3 id="tipoConverterDe" class="subtitulo">Decimal</h3>  
+                    <a>
+                        <img id="setaDireita" src="seta-direita.png" alt="botão direito" onclick="trocarDireitaDe()">
+                    </a>
+                </div>
+                <input type="text" id="inpConverter">
+            </div>
+            
+            <h3 class="subtitulo" style="position: relative; bottom: 10px;">Converter para:</h3>
+
+            <div class="div-escolha">
+                <div id="div-convertido">
+                    <a>
+                        <img id="setaEsquerda" src="seta-esquerda.png" alt="botão esquerdo" onclick="trocarEsquerdaPara()">
+                    </a>
+                    <h3 id="tipoConverterPara" class="subtitulo">Decimal</h3>  
+                    <a>
+                        <img id="setaDireita" src="seta-direita.png" alt="botão direito" onclick="trocarDireitaPara()">
+                    </a>
+                </div>
+                <input id="inpConvertido" disabled>
+            </div>
+
+            <button id="btnConverter" onclick="converter()" style="position: relative; top: 10px;">Converter</button>
+        </div>
+    </div>
+</body>
+</html>
+

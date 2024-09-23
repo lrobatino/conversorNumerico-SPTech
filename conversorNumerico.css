@@ -1,0 +1,189 @@
+#corpo {
+    background-image: url(sptech-fundo.png);
+}
+
+.div-header {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    height: 0px;
+    background-color: #091731;
+    border: 2px solid #091731;
+    border-radius: 10px;
+    padding: 50px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.div-principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #091731;
+    border: 2px solid #091731;
+    border-radius: 10px;
+    padding: 65px;
+    margin: 120px 400px 0px 400px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.div-escolha {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    bottom: 20px;
+}
+
+.titulo {
+    color: #EDF0F5;
+    font-family: sans-serif;
+    font-size: 38px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    cursor: default;
+}
+
+.subtitulo {
+    color: #EDF0F5;
+    font-family: sans-serif;
+    font-size: 26px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    cursor: default;
+}
+
+#sptechLogo {
+    width: 70px;
+    height: 70px;
+    cursor: pointer;
+}
+
+#inpConverter {
+    position: relative;
+    bottom: 15px;
+    background-color: #EDF0F5;
+    width: 210px;
+    height: 25px;
+    border: 0px solid #EDF0F5;
+    border-radius: 10px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 18px;
+    outline: none;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease;
+}
+
+#inpConverter:hover {
+    transform: scale(1.2);
+}
+
+#inpConverter:active {
+    background-color: #EDF0F5;
+}
+
+#inpConvertido {
+    position: relative;
+    bottom: 15px;
+    background-color: #EDF0F5;
+    width: 210px;
+    height: 25px;
+    border: 0px solid #EDF0F5;
+    border-radius: 10px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 18px;
+    outline: none;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease;
+}
+
+#inpConvertido:hover {
+    transform: scale(1.2);
+}
+
+#inpConvertido:active {
+    background-color: #EDF0F5;
+}
+
+
+#btnConverter {
+    background-color: #EDF0F5;
+    color: #091731;
+    width: 150px;
+    height: 40px;
+    border: 0px solid;
+    border-radius: 10px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 18px;
+    outline: none;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease;
+}
+
+#btnConverter:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+#setaDireita {
+    width: 50px;
+    height: 50px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+#setaDireita:hover {
+    transform: scale(1.4);
+}
+
+#setaEsquerda {
+    width: 50px;
+    height: 50px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+#setaEsquerda:hover {
+    transform: scale(1.4);
+}
+
+#div-converter {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    right: 2px;
+    gap: 10px;
+
+    h3 {
+       position: relative;
+       bottom: 15px; 
+    }
+}
+
+#div-convertido {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    right: 2px;
+    gap: 10px;
+
+    h3 {
+       position: relative;
+       bottom: 15px; 
+    }
+}
+
+#div-elementos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0px;
+}
